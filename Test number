@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Testing Please wait"
+echo .......
+sleep 2
+echo .............
+sleep 3
+echo " Pleae enter your number"
+read $number
+if ($number =>2 ) 
+echo "this is your $number"
+else 
+echo "wrong number , please try again"
